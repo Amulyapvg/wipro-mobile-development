@@ -1,0 +1,135 @@
+    body {
+        background-image: url('https://media.assettype.com/outlookindia/2024-06/1feb67b9-4666-44ef-8401-6403fb7544d8/11.jpg?w=801&auto=format%2Ccompress&fit=max&format=webp&dpr=1.0');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        /* Lighter background overlay */
+        background-color:black(255, 255, 255, 0.8); /* Adjust opacity as needed */
+    }
+
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(10, 6, 7, 0.788);
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #efecec;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.info h2 {
+    color: #db0d0d;
+    margin-bottom: 10px;
+}
+
+.info p {
+    color:black;
+    margin: 5px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.location {
+    margin-top: 20px;
+}
+
+.gallery {
+    margin-top: 20px;
+}
+
+.gallery h2 {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.image-grid img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.highlights {
+    margin-top: 20px;
+}
+
+.highlights h2 {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.highlights ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.highlights li {
+    margin: 5px 0;
+}
+
+.highlights a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.highlights a:hover {
+    text-decoration: underline;
+}
+
+.probability {
+    margin-top: 20px;
+}
+
+.probability h2 {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.probability p {
+    color: #555;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer p {
+    color: #777;
+}
