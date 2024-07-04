@@ -1,0 +1,18 @@
+/* Custom CSS */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background: url('header-bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background: #f8f9fa;
+}
